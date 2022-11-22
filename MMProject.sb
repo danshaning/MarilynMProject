@@ -1,0 +1,34 @@
+'Marylin Monroe Project
+
+'set up graphics window\
+GraphicsWindow.Show()
+GraphicsWindow.Title = "Marilyn - by Andy Warhol"
+GraphicsWindow.BackgroundColor = "Pink"
+GraphicsWindow.Width = 400
+GraphicsWindow.Height = 400
+
+'images variables
+mm1 = Program.Directory + "\mm1.jpg"
+mm2 = Program.Directory + "\mm2.jpg"
+mm3 = Program.Directory + "\mm3.jpg"
+mm4 = Program.Directory + "\mm4.jpg"
+mm5 = Program.Directory + "\mm5.jpg"
+mm6 = Program.Directory + "\mm6.jpg"
+mm7 = Program.Directory + "\mm7.jpg"
+mm8 = Program.Directory + "\mm8.jpg"
+mm9 = Program.Directory + "\mm9.jpg"
+
+'backgroung sound setup
+Sound.Play(Program.Directory + "\diamonds.wav")
+
+'images positioning
+GraphicsWindow.DrawResizedImage(mm1,50,50,100,100)
+GraphicsWindow.DrawResizedImage(mm2,150,50,100,100)
+GraphicsWindow.DrawResizedImage(mm3,250,50,100,100)
+GraphicsWindow.DrawResizedImage(mm4,50,150,100,100)
+GraphicsWindow.DrawResizedImage(mm5,150,150,100,100)
+GraphicsWindow.DrawResizedImage(mm6,250,150,100,100)
+GraphicsWindow.DrawResizedImage(mm7,50,250,100,100)
+GraphicsWindow.DrawResizedImage(mm8,150,250,100,100)
+GraphicsWindow.DrawResizedImage(mm1,250,250,100,100)
+
